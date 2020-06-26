@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="Stop Sign">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <mesh filename = "model://stop_sign/meshes/stop_sign.dae" scale = "0.1 0.1 0.1"/>
+            <!--<uri>model://stop_sign/meshes/stop_sign.dae</uri> -->
+            
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh filename = "model://stop_sign/meshes/stop_sign.dae" scale = "0.1 0.1 0.1" />
+            
+            
+          
+        </geometry>
+        <material>
+          <script>
+            <uri>model://stop_sign/materials/scripts</uri>
+            <uri>model://stop_sign/materials/textures</uri>
+            <name>StopSign/Diffuse</name>
+            
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

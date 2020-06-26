@@ -1,0 +1,14 @@
+material SegmentBlank/Image 
+{
+    technique 
+    {
+        pass 
+        {
+            texture_unit
+            {
+                texture ../textures/segment_blank.png
+                filtering trilinear
+            }
+        }
+    }
+}

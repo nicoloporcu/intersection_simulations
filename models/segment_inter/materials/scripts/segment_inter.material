@@ -1,0 +1,14 @@
+material SegmentInter/Image 
+{
+    technique 
+    {
+        pass 
+        {
+            texture_unit
+            {
+                texture ../textures/segment_inter.png
+                filtering trilinear
+            }
+        }
+    }
+}

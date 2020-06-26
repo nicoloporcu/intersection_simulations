@@ -1,0 +1,14 @@
+material SegmentStraight/Image 
+{
+    technique 
+    {
+        pass 
+        {
+            texture_unit
+            {
+                texture ../textures/segment_straight.png
+                filtering trilinear
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+material SegmentTurn/Image 
+{
+    technique 
+    {
+        pass 
+        {
+            texture_unit
+            {
+                texture ../textures/segment_turn.png
+                filtering trilinear
+            }
+        }
+    }
+}
