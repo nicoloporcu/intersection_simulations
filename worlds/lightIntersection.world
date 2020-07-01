@@ -182,7 +182,7 @@
   <include>
   	<static>true</static>
   	<name> ss_1</name>
-  	<uri>model://stop_sign_0.125</uri>
+  	<uri>model://stop_light_0.1</uri>
   	<pose>0.55 -0.55 0 0 0 0</pose>
   	<size> 0.2 0.2 0.2</size>
   </include>
@@ -190,7 +190,7 @@
   <include>
   	<static>true</static>
   	<name> ss_2</name>
-  	<uri>model://stop_sign_0.125</uri>
+  	<uri>model://stop_light_0.1</uri>
   	<pose> -0.55 0.55 0 0 0 3.14159265359</pose>
   	<size> 0.2 0.2 0.2</size>
   </include>
@@ -199,7 +199,7 @@
    <include>
   	<static>true</static>
   	<name> ss_3</name>
-  	<uri>model://stop_sign_0.125</uri>
+  	<uri>model://stop_light_0.1</uri>
   	<pose> 0.55 0.55 0 0 0 1.57079632679</pose>
   	<size> 0.2 0.2 0.2</size>
   </include>
@@ -208,7 +208,7 @@
    <include>
   	<static>true</static>
   	<name> ss_4</name>
-  	<uri>model://stop_sign_0.125</uri>
+  	<uri>model://stop_light_0.1</uri>
   	<pose> -0.55 -0.55 0 0 0 -1.57079632679</pose>
   	<size> 0.2 0.2 0.2</size>
   </include>
